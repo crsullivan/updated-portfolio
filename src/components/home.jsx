@@ -64,7 +64,7 @@ function home() {
                 </div>
                 <div className="bottom">
                     <h1>
-                        Highlighted Work
+                        Highlighted Work, all of it
                     </h1>
                     <div className="projects">
                         <div className="project">
