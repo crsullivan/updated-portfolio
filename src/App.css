@@ -12,21 +12,35 @@
   padding: 0;
 }
 
+.Head {
+  display: flex;
+  margin: auto;
+}
+
+.Head a {
+  text-decoration: none;
+  color: black;  
+  margin: auto;
+}
+
 #name {
-  text-align: center;
+  font-size: 5rem;
+  color: slategray;
+  margin-left: 5%;
   margin-top: 2%;
   -webkit-animation: name 3s; /* Safari, Chrome and Opera > 13.1 */
   -moz-animation: name 3s; /* Firefox < 16 */
   -ms-animation: name 3s; /* Internet Explorer */
   -o-animation: name 3s; /* Opera < 13.1 */
   animation: name 3s;
+  width: 50%;
 }
 
 #top {
   display: flex;
   background-color: red;
   height: 20rem;
-  margin: 2% 10%;
+  margin: 0% 10%;
 }
 
 .boxes {

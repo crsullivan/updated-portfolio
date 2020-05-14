@@ -1,9 +1,16 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function home() {
     return (
         <div className="Home">
-            <h1 id="name">Connor R. Sullivan</h1>
+            <div className="Head">
+                <>
+                    <h1 id="name">Connor R. Sullivan</h1>
+                    <a class="fab fa-github fa-7x" href="https://github.com/crsullivan"></a>
+                    <a class="fab fa-linkedin-in fa-7x" href="https://www.linkedin.com/in/connor-ryan-sullivan/"></a>
+                </>            
+            </div>
             <div id="main">
                 <div id="top">
                     <div className="boxes">

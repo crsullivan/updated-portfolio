@@ -6,6 +6,10 @@ import home from './components/home'
 import about from './components/about'
 import Nav from './components/nav'
 import Footer from "./components/footer";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faEnvelope, faKey } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faEnvelope, faKey);
 
 function App() {
   return (
