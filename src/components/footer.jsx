@@ -7,7 +7,7 @@ function footer() {
     return (
         <div id="footerbar">
             <div id="links"> 
-                <p>copyright 2020 c-r-sullivan</p>
+                <p>2020 c-r-sullivan</p>
             </div>
         </div>
     );
