@@ -5,6 +5,7 @@
   -ms-animation: name 1s; /* Internet Explorer */
   -o-animation: name 1s; /* Opera < 13.1 */
   animation: name 1s;
+  background-color: ghostwhite;
 }
 
 .Footer {
@@ -72,23 +73,6 @@
   font-size: 2rem;
   margin-top: -1%;
 
-}
-
-#top {
-  display: flex;
-  background-color: red;
-  height: 20rem;
-  margin: 0% 10%;
-  
-}
-
-.boxes {
-  text-align: center;
-  justify-content: center;
-  width: 40%;
-  height: 80%;
-  background-color: blue;
-  margin: auto
 }
 
 .stack {
@@ -201,13 +185,43 @@
 
 
 .About {
-  /* background-color: green; */
-  height: 90vh;
-  margin: 0;
+  background-color: ghostwhite;
+  height: 100vh;
+  
 }
 
-.App {
-  background-color: black;
-  display:flex;
-  flex-direction: column;
+.About-Title {
+  font-size: 4rem;
+  width: 90%;
+  margin: auto;
+  margin-bottom: -2%;
+  margin-top: -2%;
+
+  /* background-color: red; */
+}
+
+#top {
+  border-top: 1px solid lightgreen;
+  display: flex;
+  height: 50rem;
+  margin: 0% 10%;
+  
+}
+
+.boxes {
+  text-align: center;
+  justify-content: center;
+  width: 40%;
+  height: 80%;
+  margin: auto;
+}
+
+.boxes img {
+  height: 100%;
+  border-radius: 2%;;
+}
+
+.boxes p {
+  font-size: 1.4rem;
+  margin-top: 7%
 }
