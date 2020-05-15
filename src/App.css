@@ -5,17 +5,11 @@
   -ms-animation: name 1s; /* Internet Explorer */
   -o-animation: name 1s; /* Opera < 13.1 */
   animation: name 1s;
-  background-color: ghostwhite;
-  height: 100%;
-  width: 100%;
 }
-
 
 .Home {
   background-color: ghostwhite;
-  height: auto;
-  margin: 0;
-  padding: 0;
+  width: 100vw
 }
 
 .Head {
@@ -24,7 +18,6 @@
   border-bottom: 1px solid lightgreen;
   width: 90%;
   justify-content: space-between;
-
 }
 
 .A {
@@ -32,8 +25,6 @@
   margin-left:30%;
   width: 20%;
   margin: 0;
-
-  
 }
 
 .A a {
@@ -42,7 +33,6 @@
   width: auto;
   margin: auto;
   transition: all .4s ease-in-out;
-  
 }
 
 .A a:hover {
@@ -52,16 +42,8 @@
 
 #name {
   font-size: 4rem;
-  /* color: slategray; */
-  /* margin-left: 5%; */
-  margin-top: 4%;
-  /* -webkit-animation: name 3s; /* Safari, Chrome and Opera > 13.1 */
-  /* -moz-animation: name 3s; Firefox < 16 */
-  /* -ms-animation: name 3s; Internet Explorer */
-  /* -o-animation: name 3s; Opera < 13.1 */
-  /* animation: name 3s; */ 
+  margin-top: 4%; 
   width: 50%;
-  
 }
 
 #name h2 {
@@ -78,22 +60,17 @@
 }
 
 .stack {
-  /* height: 15rem; */
   margin: 3% 10%;
-  /* margin-bottom: 13%; */
 }
 
 .techs {
   display: flex;
-  /* height: 10rem; */
   justify-content: space-evenly;
-  
 }
 
 .tech {
   width: 15%;
   text-align: center;
-  /* height: 10rem; */
 }
 
 .tech h3 {
@@ -232,3 +209,107 @@
   text-align: center;
   bottom: auto;
 } 
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: ghostwhite;
+  }
+  .Head {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .A {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  .A a {
+    text-decoration: none;
+    color: black;  
+    width: auto;
+    margin: auto;
+    transition: all .4s ease-in-out;
+  }
+  
+  .A a:hover {
+    transform: scale(1.5);
+    color: lightgreen;
+  }
+  
+  #name {
+    font-size: 3rem;
+    margin-top: 4%; 
+    width: 100%;
+  }
+  
+  #name h2 {
+    font-size: 2rem;
+    margin-left: 5%;
+    margin-top: -2%;
+    text-decoration: none;
+  }
+  
+  .Head .Email {
+    font-size: 1.5rem;
+    margin-top: -1%;
+  
+  }
+
+  .stack h1 {
+    font-size: 2rem;
+  }
+
+  .tech {
+    width: auto;
+  }
+  
+  .tech h3 {
+    font-size: 1.2rem;
+  }
+  
+  .tech i {
+    display: none;
+  }
+
+  .bottom {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .project {
+    display: flex;
+    flex-direction: column;
+    width: 100vw
+  }
+
+  .project img {
+    display: none;
+  }
+
+  .About {
+    background-color: ghostwhite;
+  }
+
+  .About-Title {
+    font-size: 3rem;
+  }
+
+  #top {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .boxes {
+    width: 100%
+  }
+
+  
+  .boxes img {
+    display: none;
+  }
+  
+}
