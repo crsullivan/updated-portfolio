@@ -7,8 +7,8 @@ function nav() {
     return (
         <div id="navbar">
             <div id="links"> 
-                <a href="http://localhost:3000/about">About</a>
-                <a href="http://localhost:3000/">Home</a>
+                <a href="https://c-r-sullivan.com/about">About</a>
+                <a href="https://c-r-sullivan.com/">Home</a>
             </div>
         </div>
     );
