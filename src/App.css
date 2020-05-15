@@ -148,10 +148,9 @@
 }
 
 .project img {
-  max-width: 40%;
   border-radius: 1%;
-  max-height: 10%;
   margin-top: 3%;
+  height: 300px;
 }
 
 .Description a {
