@@ -18,9 +18,10 @@
     padding: 1%;
     margin-left: 2%;
     text-decoration: none;
-    
+    -ms-transition: .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out;
 }
 
 #navbar a:hover {
-    background-color: grey;
+    color: lightgreen;
 }

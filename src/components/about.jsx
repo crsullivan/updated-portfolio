@@ -2,7 +2,16 @@ import React from 'react';
 
 function about() {
     return (
-        <h1 className="About">about here</h1>
+        <div className="About">about here
+            <div id="top">
+                <div className="boxes">
+                    text here
+                </div>
+                <div className="boxes">
+                    <img src={require("./images/wut.PNG")} />            
+                </div>
+            </div>
+        </div>    
     );
   }
   
