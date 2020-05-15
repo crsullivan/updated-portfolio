@@ -102,10 +102,9 @@ function home() {
 
                                 - React, HTML, MaterialUI, NodeJs, Express, PostgreSQL, Collaboration<br></br>
 
-                                <br></br>Omega2020 is a full stack sudoku web app that offers guests thousands of different puzzles and members the ability to save a puzzle, and come back to it later.
-                                This project involved remote collaboration with a team of 3 Web Developers, 1 UX/UI Designer and 3 Data Scientists to build the web app in 8 weeks.<br></br>
+                                <br></br>Omega2020 is a full stack Sudoku web app that offers guests thousands of different puzzles and members the ability to save a puzzle and come back to it later. This project involved remote collaboration with a team of three Web Developers, one UX/UI Designer and three Data Scientists over the course of eight weeks.<br></br>
                                 <br></br>- Solely responsible for Database design and development.
-                                <br></br>- Integrated with a Data Science API hosted on AWS which provides endpoints to the user to sort through puzzles by difficulty through the pipeline.
+                                <br></br>- Integrated with an API on Amazon Web Sertvices, built by the Data Science team which provides endpoints to the user to sort through puzzles by difficulty through our pipeline.
                                 <br></br>- Utilizes React hooks to integrate 5 different themes the user can choose from.
                                 </p>
                             </div>
@@ -124,11 +123,12 @@ function home() {
                                     <p>
                                     - Fully Responsive, HTML, LESS, Collaboration <br></br>
                                     
-                                    <br></br>Marketing Page for the Sleep Mood web app build week project at Lambda School.
+                                    <br></br>Marketing Page for the Sleep Mood web application built as part of Lambda School curriculum. This project involved close remote collaboration with a team of two other Web Developers and a UX/UI Designer.
 
                                     This project involved remote collaboration with a team of two other Web Developers and a UX/UI Designer to bring to production a Marketing Page in 1 week for Lambda School's Sleep Mood web app build week project.<br></br>
-                                    <br></br>- Responsible for constant communication throughout each day between team mates and program manager.
+                                    <br></br>- Led collaboration between team mates and program manager; ensuring each team member knew their daily tasks and how to complete them.
                                     <br></br>- Met with UX/UI Designer on a daily basis to discuss improvements, concerns, new ideas and general design implementation.
+                                    <br></br>- Utilized LESS CSS to create a fully responsive UI for desktop use, with media queries for mobile use.
                                     </p>
                                 </div>
                         </div>
