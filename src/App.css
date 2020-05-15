@@ -204,6 +204,11 @@
 
 }
 
+.boxes a {
+  text-decoration: none;
+  color: rgb(14, 197, 14)
+}
+
 .boxes img {
   width: 20rem;
   margin-top: 5%;
@@ -313,7 +318,6 @@
   .boxes {
     width: 100%
   }
-
   
   .boxes img {
     display: none;
