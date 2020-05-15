@@ -94,9 +94,10 @@ function home() {
                         <div className="project">
                             <div className="Description">
                                 <h1>
-                                    <a target="_blank" rel="noopener noreferrer" href="https://omega2020.netlify.app/">
+                                    <a className="Project-title" target="_blank" rel="noopener noreferrer" href="https://omega2020.netlify.app/">
                                         Omega2020 Sudoku App
                                     </a>
+                                    <a className="Gitlink" target="_blank" rel="noopener noreferrer" class="fab fa-github" href="https://github.com/crsullivan/omega2020-fe"></a>
                                 </h1>
                                 <p>
 
@@ -116,9 +117,10 @@ function home() {
                             <img src={require("./images/sleepmoodGif.gif")} />
                                 <div className="Description">
                                     <h1>
-                                        <a target="_blank" rel="noopener noreferrer" href="https://sleepmood.netlify.app/">
+                                        <a className="Project-title" target="_blank" rel="noopener noreferrer" href="https://sleepmood.netlify.app/">
                                             SleepMood UI
                                         </a>
+                                        <a className="Gitlink" target="_blank" rel="noopener noreferrer" class="fab fa-github" href="https://github.com/crsullivan/User-Interface-1"></a>
                                     </h1>
                                     <p>
                                     - Fully Responsive, HTML, LESS, Collaboration <br></br>
@@ -135,9 +137,10 @@ function home() {
                         <div className="project">
                             <div className="Description">
                                 <h1>
-                                    <a target="_blank" rel="noopener noreferrer" href="https://carbon-tracker.now.sh/">
+                                    <a className="Project-title" target="_blank" rel="noopener noreferrer" href="https://carbon-tracker.now.sh/">
                                         Carbon Tracker
                                     </a>
+                                    <a className="Gitlink" target="_blank" rel="noopener noreferrer" class="fab fa-github" href="https://github.com/crsullivan/carbon-tracker"></a>
                                 </h1>
                                 <p>
                                 - React, Redux, API Integration, React-Vis<br></br>
@@ -160,9 +163,10 @@ function home() {
                             </img>
                             <div className="Description">
                                 <h1>
-                                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/crsullivan/spider-graph-backend">
+                                    <a className="Project-title" target="_blank" rel="noopener noreferrer" href="https://github.com/crsullivan/spider-graph-backend">
                                         Spider Graph Back End
                                     </a>
+                                    <a className="Gitlink" target="_blank" rel="noopener noreferrer" class="fab fa-github" href="https://github.com/crsullivan/spider-graph-backend"></a>
                                 </h1>
                                 <p>
                                 - NodeJS, Express, Knex<br></br>
