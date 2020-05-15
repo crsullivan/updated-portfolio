@@ -104,7 +104,7 @@ function home() {
 
                                 <br></br>Omega2020 is a full stack Sudoku web app that offers guests thousands of different puzzles and members the ability to save a puzzle and come back to it later. This project involved remote collaboration with a team of three Web Developers, one UX/UI Designer and three Data Scientists over the course of eight weeks.<br></br>
                                 <br></br>- Solely responsible for Database design and development.
-                                <br></br>- Integrated with an API on Amazon Web Sertvices, built by the Data Science team which provides endpoints to the user to sort through puzzles by difficulty through our pipeline.
+                                <br></br>- Integrated with an API on Amazon Web Services, built by the Data Science team which provides endpoints to the user to sort through puzzles by difficulty through our pipeline.
                                 <br></br>- Utilizes React hooks to integrate 5 different themes the user can choose from.
                                 </p>
                             </div>
@@ -125,7 +125,7 @@ function home() {
                                     
                                     <br></br>Marketing Page for the Sleep Mood web application built as part of Lambda School curriculum. This project involved close remote collaboration with a team of two other Web Developers and a UX/UI Designer.
 
-                                    This project involved remote collaboration with a team of two other Web Developers and a UX/UI Designer to bring to production a Marketing Page in 1 week for Lambda School's Sleep Mood web app build week project.<br></br>
+                                  <br></br>
                                     <br></br>- Led collaboration between team mates and program manager; ensuring each team member knew their daily tasks and how to complete them.
                                     <br></br>- Met with UX/UI Designer on a daily basis to discuss improvements, concerns, new ideas and general design implementation.
                                     <br></br>- Utilized LESS CSS to create a fully responsive UI for desktop use, with media queries for mobile use.
