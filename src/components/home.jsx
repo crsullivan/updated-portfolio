@@ -1,5 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function home() {
     return (
@@ -12,8 +11,8 @@ function home() {
                     </h2>
                 </div>
                 <div className="A">
-                    <a target="_blank" rel="noopener noreferrer" class="fab fa-github fa-5x" href="https://github.com/crsullivan"></a>
-                    <a target="_blank" rel="noopener noreferrer" class="fab fa-linkedin-in fa-5x" href="https://www.linkedin.com/in/connor-ryan-sullivan/"></a>
+                    <a target="_blank" rel="noopener noreferrer" className="fab fa-github fa-5x" href="https://github.com/crsullivan"> </a>
+                    <a target="_blank" rel="noopener noreferrer" className="fab fa-linkedin-in fa-5x" href="https://www.linkedin.com/in/connor-ryan-sullivan/"> </a>
                 </div>
             </div>
             <div className="main">
@@ -26,31 +25,31 @@ function home() {
                                 <h3>
                                     HTML
                                 </h3>
-                                <i class="fas fa-code fa-3x"></i>
+                                <i className="fas fa-code fa-3x"></i>
                             </div>
                             <div className="tech">
                                 <h3>
                                     CSS
                                 </h3>
-                                <i class="fab fa-css3-alt fa-3x"></i>
+                                <i className="fab fa-css3-alt fa-3x"> </i>
                             </div>
                             <div className="tech">
                                 <h3>
                                     JavaScript
                                 </h3>
-                                <i class="fab fa-js-square fa-3x"></i>
+                                <i className="fab fa-js-square fa-3x"> </i>
                             </div>
                             <div className="tech">
                                 <h3>
                                     React
                                 </h3>
-                                <i class="fab fa-react fa-3x"></i>
+                                <i className="fab fa-react fa-3x"> </i>
                             </div>
                             <div className="tech">
                                 <h3>
                                     Redux
                                 </h3>
-                                <i class="fas fa-exchange-alt fa-3x"></i>
+                                <i className="fas fa-exchange-alt fa-3x"> </i>
                             </div>
                         </div>
                         <div className="techs">
@@ -58,31 +57,31 @@ function home() {
                                 <h3>
                                     NodeJS
                                 </h3>
-                                <i class="fab fa-node fa-3x"></i>
+                                <i className="fab fa-node fa-3x"> </i>
                             </div>
                             <div className="tech">
                                 <h3>
                                     Express
                                 </h3>
-                                <i class="fas fa-train fa-3x"></i>
+                                <i className="fas fa-train fa-3x"> </i>
                             </div>
                             <div className="tech">
                                 <h3>
                                     SQL
                                 </h3>
-                                <i class="fas fa-database fa-3x"></i>
+                                <i className="fas fa-database fa-3x"> </i>
                             </div>
                             <div className="tech">
                                 <h3>
                                     Knex
                                 </h3>
-                                <i class="fas fa-praying-hands fa-3x"></i>
+                                <i className="fas fa-praying-hands fa-3x"> </i>
                             </div>
                             <div className="tech">
                                 <h3>
                                     Python
                                 </h3>
-                                <i class="fab fa-python fa-3x"></i>
+                                <i className="fab fa-python fa-3x"> </i>
                             </div>
                         </div>
                 </div>
@@ -97,7 +96,7 @@ function home() {
                                     <a className="Project-title" target="_blank" rel="noopener noreferrer" href="https://omega2020.netlify.app/">
                                         Omega2020 Sudoku App
                                     </a>
-                                    <a className="Gitlink" target="_blank" rel="noopener noreferrer" class="fab fa-github" href="https://github.com/crsullivan/omega2020-fe"></a>
+                                    <a target="_blank" rel="noopener noreferrer" className="fab fa-github" href="https://github.com/crsullivan/omega2020-fe"> </a>
                                 </h1>
                                 <p>
 
@@ -109,18 +108,18 @@ function home() {
                                 <br></br>- Utilizes React hooks to integrate 5 different themes the user can choose from.
                                 </p>
                             </div>
-                            <img src={require("./images/sudokuGif.gif")}>
+                            <img alt="Sudoku website" src={require("./images/sudokuGif.gif")}>
                                 
                             </img>
                         </div>
                         <div className="project">
-                            <img src={require("./images/sleepmoodGif.gif")} />
+                            <img alt="Sleep Mood website" src={require("./images/sleepmoodGif.gif")} />
                                 <div className="Description">
                                     <h1>
                                         <a className="Project-title" target="_blank" rel="noopener noreferrer" href="https://sleepmood.netlify.app/">
                                             SleepMood UI
                                         </a>
-                                        <a className="Gitlink" target="_blank" rel="noopener noreferrer" class="fab fa-github" href="https://github.com/crsullivan/User-Interface-1"></a>
+                                        <a target="_blank" rel="noopener noreferrer" className="fab fa-github" href="https://github.com/crsullivan/User-Interface-1"> </a>
                                     </h1>
                                     <p>
                                     - Fully Responsive, HTML, LESS, Collaboration <br></br>
@@ -140,7 +139,7 @@ function home() {
                                     <a className="Project-title" target="_blank" rel="noopener noreferrer" href="https://carbon-tracker.now.sh/">
                                         Carbon Tracker
                                     </a>
-                                    <a className="Gitlink" target="_blank" rel="noopener noreferrer" class="fab fa-github" href="https://github.com/crsullivan/carbon-tracker"></a>
+                                    <a target="_blank" rel="noopener noreferrer" className="fab fa-github" href="https://github.com/crsullivan/carbon-tracker"> </a>
                                 </h1>
                                 <p>
                                 - React, Redux, API Integration, React-Vis<br></br>
@@ -153,12 +152,12 @@ function home() {
                                 <br></br>- React-Vis integration to provide data visualization.
                                 </p>
                             </div>
-                            <img src={require("./images/carbontracker.PNG")}>
+                            <img alt="Carbon Tracker website" src={require("./images/carbontracker.PNG")}>
                                 
                             </img>
                         </div>
                         <div className="project">
-                            <img src={require("./images/spidergraphtables.PNG")}>
+                            <img alt="spider graph code" src={require("./images/spidergraphtables.PNG")}>
                                 
                             </img>
                             <div className="Description">
@@ -166,7 +165,7 @@ function home() {
                                     <a className="Project-title" target="_blank" rel="noopener noreferrer" href="https://github.com/crsullivan/spider-graph-backend">
                                         Spider Graph Back End
                                     </a>
-                                    <a className="Gitlink" target="_blank" rel="noopener noreferrer" class="fab fa-github" href="https://github.com/crsullivan/spider-graph-backend"></a>
+                                    <a target="_blank" rel="noopener noreferrer" className="fab fa-github" href="https://github.com/crsullivan/spider-graph-backend"> </a>
                                 </h1>
                                 <p>
                                 - NodeJS, Express, Knex<br></br>

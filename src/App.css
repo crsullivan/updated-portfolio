@@ -5,11 +5,11 @@
   -ms-animation: name 1s; /* Internet Explorer */
   -o-animation: name 1s; /* Opera < 13.1 */
   animation: name 1s;
+  width: 100%
 }
 
 .Home {
   background-color: ghostwhite;
-  width: 100vw
 }
 
 .Head {

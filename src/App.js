@@ -10,6 +10,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faEnvelope, faKey } from '@fortawesome/free-solid-svg-icons';
 
 library.add(faEnvelope, faKey);
+console.log('Welcome To My Page!','\n','It is a basic single page react app','\n','remember to contact me at crsullivan@protonmail.com'  )
 
 function App() {
   return (

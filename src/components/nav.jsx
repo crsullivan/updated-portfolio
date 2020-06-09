@@ -6,7 +6,7 @@ function nav() {
     
     return (
         <div id="navbar">
-            <div id="links"> 
+            <div className="links"> 
                 <a href="https://c-r-sullivan.com/about">About</a>
                 <a href="https://c-r-sullivan.com/">Home</a>
             </div>
