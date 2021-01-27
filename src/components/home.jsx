@@ -136,23 +136,21 @@ function home() {
                         <div className="project">
                             <div className="Description">
                                 <h1>
-                                    <a className="Project-title" target="_blank" rel="noopener noreferrer" href="https://carbon-tracker.now.sh/">
-                                        Carbon Tracker
+                                    <a className="Project-title" target="_blank" rel="noopener noreferrer" href="https://laurasgraph.now.sh/">
+                                        Pima County Covid19 Tracker
                                     </a>
-                                    <a target="_blank" rel="noopener noreferrer" className="fab fa-github" href="https://github.com/crsullivan/carbon-tracker"> </a>
+                                    <a target="_blank" rel="noopener noreferrer" className="fab fa-github" href="https://github.com/crsullivan/Pima-covid-tracker"> </a>
                                 </h1>
                                 <p>
-                                - React, Redux, API Integration, React-Vis<br></br>
-                                
-                                <br></br>React Redux web app with Carbon intensity API integration and a graph library.
 
+                                - React, MaterialUI, NodeJs, Express, Fully Responsive, In-House API<br></br>
 
-                                This is a small, solo project built to showcase how Redux juggles API data.<br></br>
-                                <br></br>- Developed and deployed on Vercel within two days.
-                                <br></br>- React-Vis integration to provide data visualization.
+                                <br></br>Pima Covid19 Tracker is a full stack web app that was created to fill a gap in tracking and communication for a client keeping track of paper records.<br></br>
+                                <br></br>- Met with client to determine overall design and user flow. 
+                                <br></br>- Multiple strategies of data manipulation to make the data more readable, and understandable.
                                 </p>
                             </div>
-                            <img alt="Carbon Tracker website" src={require("./images/carbontracker.PNG")}>
+                            <img alt="tracking website" src={require("./images/covidtracker.PNG")}>
                                 
                             </img>
                         </div>
